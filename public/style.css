@@ -1,0 +1,79 @@
+html {
+  margin: auto;
+  border: 20rem;
+  margin-top: 7rem;
+}
+
+q {
+  font-family: parkavenue, cursive, serif;
+}
+
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+.text-shadow-dark {
+  text-shadow: 4px 4px #a0929b;
+}
+
+.text-shadow-dark-card {
+  text-shadow: 2px 2px #a0929b;
+  padding: 5px;
+}
+
+.box-shadow-grey {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 2px 4px 12px 0px;
+  max-width: 100%;
+  padding: 30px 40px;
+}
+
+.indexmain,
+.contactmain,
+.gallerymain {
+  /*main content for index and contact*/
+  flex: 1 0 auto; /*part of flexbox-0sticky footer/* Prevent Chrome, Opera, and Safari from
+      letting these items shrink to smaller than their content's
+      default minimum size. */
+  margin: 10 5 10rem 0;
+}
+
+.rotateimg90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.dub-border {
+  border-style: double;
+}
+
+.leftWhite {
+  float: left;
+  color: white;
+}
+
+#textright {
+  text-align: right;
+}
+
+#textcenter {
+  text-align: center;
+}
+
+/* NOT USED */
+#full-flex {
+  /*flex box that works with sticky footer*/
+  margin: 0;
+  font: 16px Arial; /* per specs*/
+  display: flex; /*part of flexbox-0sticky footer*/
+  flex-direction: column; /*part of flexbox-0sticky footer*/
+  height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+  width: 960px;
+  margin: auto;
+}
