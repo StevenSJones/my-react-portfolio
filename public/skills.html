@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--HTML5 doctype and including a viewport meta tag for proper responsive behaviors-->
+    <!--indicative of the viewbility of the page on other devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <!--link to style.css-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="theme-color" content="#563d7c" />
+    <!--the title appears on the tab in the browser of your choosing-->
+    <script src="script.js"></script>
+
+    <title>Skills Acquired</title>
+  </head>
+
+  <body>
+    <nav
+      class="container d-flex navbar navbar-expand-md navbar-dark fixed-top bg-dark"
+      style="max-width: 100%"
+    >
+      <div class="leftWhite"></div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="dropdown01"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Github | LinkedIn | Resume</a
+            >
+            <div
+              class="dropdown-menu text-primary"
+              aria-labelledby="dropdown01"
+            >
+              <a
+                class="dropdown-item text-primary"
+                href="https://github.com/StevenSJones"
+                target="_blank"
+                >My Github &raquo;</a
+              >
+              <a
+                class="dropdown-item text-primary"
+                href="https://www.linkedin.com/in/steven-j-285a33115"
+                target="_blank"
+                >My LinkedIn Page &raquo;</a
+              >
+              <a
+                class="dropdown-item text-primary"
+                href="./resume.html"
+                target="_blank"
+                >My Resume &raquo;</a
+              >
+            </div>
+          </li>
+        </ul>
+        <div id="textright" class="my-2 my-lg-0 text-primary">
+          <span>(303) 880-9518</span>
+          <br />
+          <span>ssjones.code@gmail.com</span>
+          <br />
+          <span>
+            <a class="anvil" href="index.html" target="_blank">About Me | </a>
+            <a class="anvil" href="skills.html" target="_blank"
+              >Skills Acquired |
+            </a>
+            <a class="anvil" href="gallery.html" target="_blank">Gallery </a>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <div align="center" class="container jumbotron dub-border outline-primary">
+      <div class="contactmain">
+        <div class="container">
+          <h1 class="display-3 text-shadow-dark">
+            What I Have Learned So Far:
+          </h1>
+          <p>
+            On this page you can see what I have learned in and around the world
+            of Javascript. It hasn't been long at all and I am compiling an
+            impressive list of areas of knowledge surronding Javascript and am
+            sure that there is much more to come. There will never be a point
+            when I have learned all that there is to know about web developement
+            and that is truly exciting!
+          </p>
+          <hr width="70%" style="color: white; border: 1px solid white" />
+          <hr width="60%" style="color: white; border: 1px solid white" />
+          <hr width="50%" style="color: white; border: 1px solid white" />
+          <hr width="40%" style="color: white; border: 1px solid white" />
+          <hr width="30%" style="color: white; border: 1px solid white" />
+          <hr width="20%" style="color: white; border: 1px solid white" />
+          <hr width="10%" style="color: white; border: 1px solid white" />
+          <hr width="5%" style="color: white; border: 1px solid white" />
+          <!-- On computer screens, sans-serif fonts are considered easier to read than serif fonts. -->
+          <q class="text-muted"
+            >As an unremitting scholar, I am perpetually in search of ways to
+            acquire and implement novel technologies.</q
+          >
+        </div>
+      </div>
+      <hr width="70%" />
+
+      <div>
+        <div class="card" style="max-width: 100%">
+          <h1 class="text-shadow-dark-card">
+            The coding components that I have studied thus far:
+          </h1>
+
+          <div class="card-deck">
+            <div class="card border-primary mb-4" style="max-width: 100%">
+              <div class="card-header bg-transparent border-primary">HTML</div>
+              <div class="card-body text-secondary">
+                <h5 class="card-title">Hyper-text-markup-language;</h5>
+                <p class="card-text">
+                  better known as HTML, represents the bottom most structure of
+                  code, very similar to a skeleton. The first div that I made
+                  and saw in an actual browser was a monumental moment for me
+                  that solidified my appreciation of coding and the process
+                  behind what we see.
+                </p>
+              </div>
+            </div>
+
+            <div class="card border-primary mb-4" style="max-width: 100%">
+              <div class="card-header bg-transparent border-secondary">CSS</div>
+              <div class="card-body text-primary">
+                <h5 class="card-title">Cascading Style Sheets;</h5>
+                <p class="card-text">
+                  better known as CSS, is the astheticly pleasing components on
+                  a page, like skin, hair, fingernail, etc. When we started CSS
+                  is when I started to see the true power that web developement
+                  posseses. Just the tip of the iceberg!
+                </p>
+              </div>
+            </div>
+
+            <div class="card border-primary mb-4" style="max-width: 18rem">
+              <div class="card-header bg-transparent border-primary">
+                Bootstrap
+              </div>
+              <div class="card-body text-secondary">
+                <h5 class="card-title">Bootstrap Library ...</h5>
+                <p class="card-text">
+                  is a compilation of CSS-like style sheets that are pre-made
+                  and ready for consumption. This was my favorite of the three
+                  coding elements listed here in card form as it expanded on the
+                  HTML and CSS both and showed me that there is still much more
+                  to learn.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-deck">
+            <div class="card border-primary mb-4" style="max-width: 100%">
+              <div class="card-header bg-transparent border-primary">
+                Javascript
+              </div>
+              <div class="card-body text-secondary">
+                <h5 class="card-title">Javascript</h5>
+                <p class="card-text">
+                  Javascript provides the functionality for your website. This
+                  is where your button clicks and inputs (and much more).
+                </p>
+              </div>
+            </div>
+
+            <div class="card border-primary mb-4" style="max-width: 100%">
+              <div class="card-header bg-transparent border-secondary">
+                Servers
+              </div>
+              <div class="card-body text-primary">
+                <h5 class="card-title">Servers...</h5>
+                <p class="card-text">
+                  The servers that I have worked with are Express and Mongo.
+                  These servers containg the routes that the data that we
+                  collect on the front-end and passes it back to be worked on.
+                </p>
+              </div>
+            </div>
+
+            <div class="card border-primary mb-4" style="max-width: 18rem">
+              <div class="card-header bg-transparent border-primary">
+                DataBases
+              </div>
+              <div class="card-body text-secondary">
+                <h5 class="card-title">Databases...</h5>
+                <p class="card-text">
+                  Databases hold the data (so that our data persists beyond the
+                  session itself) that we are working on/with to be used.
+                  Specifically I have dealt with MongoDB as well as MysqlDB.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card" style="max-width: 100%">
+              <div class="card-deck">
+                <div class="card border-primary mb-4" style="max-width: 100%">
+                  <div class="card-header bg-transparent border-primary">
+                    Publish
+                  </div>
+                  <div class="card-body text-secondary">
+                    <h5 class="card-title">Publishing the site...</h5>
+                    <p class="card-text">
+                      To publish (make your site public) my sites I used either
+                      GITHUB pages, Heroku or Netlify. I looked at what the
+                      publisher offered that was different than the other
+                      publishers so that I could tailor the publisher to my
+                      needs. There are other options to explore out there for
+                      publishing your work.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card border-primary mb-4" style="max-width: 100%">
+                  <div class="card-header bg-transparent border-secondary">
+                    Virtual Studio Code
+                  </div>
+                  <div class="card-body text-primary">
+                    <h5 class="card-title">VS Code</h5>
+                    <p class="card-text">
+                      VS CODE is the environment in which I run my code and test
+                      it for functionality and bugs along with modularization
+                      and user experience (in conjucntion with the developer
+                      tools in the browser). This is where I spent the
+                      overwhelming majority of my time learning coding. This is
+                      where you are able to actual code and put what you have
+                      been studying to practice.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card border-primary mb-4" style="max-width: 18rem">
+                  <div class="card-header bg-transparent border-primary">
+                    React
+                  </div>
+                  <div class="card-body text-secondary">
+                    <h5 class="card-title">React...</h5>
+                    <p class="card-text">
+                      React is a library (similar to a framework like Angular or
+                      VUE) created by Facebook. It is a declaritive and flexible
+                      and efficient javascript library for building UI's (user
+                      interfaces are the part of the front-end of web
+                      developement where the user interacts with the site). One
+                      huge perk of using React is that it updates live (like
+                      running on a live server) so you don't have to stop and
+                      start your server in developement.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr width="50%" />
+
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="container d-flex justify-content-center">
+        <!--sticky footer-->
+        <span align="center" class="text-muted">&copy; Steven Jones 2020</span
+        ><!--&copy is used to create the copywrite symbol-->
+      </div>
+    </footer>
+  </body>
+</html>

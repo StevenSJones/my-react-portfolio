@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--HTML5 doctype and including a viewport meta tag for proper responsive behaviors-->
+    <!--indicative of the viewbility of the page on other devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <!--link to style.css-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="theme-color" content="#563d7c" />
+    <!--the title appears on the tab in the browser of your choosing-->
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav
+      class="container d-flex navbar navbar-expand-md navbar-dark fixed-top bg-dark"
+      style="max-width: 100%"
+    >
+      <div class="leftWhite"></div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="dropdown01"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Github | LinkedIn | Resume</a
+            >
+            <div
+              class="dropdown-menu text-primary"
+              aria-labelledby="dropdown01"
+            >
+              <a
+                class="dropdown-item text-primary"
+                href="https://github.com/StevenSJones"
+                target="_blank"
+                >My Github Repository &raquo;</a
+              >
+              <a
+                class="dropdown-item text-primary"
+                href="https://www.linkedin.com/in/steven-j-285a33115"
+                target="_blank"
+                >My LinkedIn Page &raquo;</a
+              >
+              <a
+                class="dropdown-item text-primary"
+                href="./resume.html"
+                target="_blank"
+                >My Resume &raquo;</a
+              >
+            </div>
+          </li>
+        </ul>
+        <div id="textright" class="my-2 my-lg-0 text-primary">
+          <span>(303) 880-9518</span>
+          <br />
+          <span>ssjones.code@gmail.com</span>
+          <br />
+          <span>
+            <a class="anvil" href="index.html" target="_blank">About Me | </a>
+            <a class="anvil" href="skills.html" target="_blank"
+              >Skills Acquired |
+            </a>
+            <a class="anvil" href="gallery.html" target="_blank">Gallery </a>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      role="main"
+      class="container jumbotron dub-border outline-primary box-shadow-grey"
+    >
+      <div id="textcenter" class="container jumbotron">
+        <div class="row">
+          <div class="col">
+            <h1 class="display-3 text-shadow-dark">Gallery</h1>
+            <p>
+              Below you will find screenshots of my son Steven and I in our
+              Boston Bruins gear eating icecream, as well as specific (and more
+              pertanent to my web-dev portfolio) shots of six of my recent
+              projects. If you click on the picture above the caption, you will
+              be taken to the site detailed for a closer look. In the case of
+              the picture of my son and I, upon clicking you will be taken to
+              the Boston Bruins home website.
+            </p>
+            <hr width="70%" style="color: white; border: 1px solid white" />
+            <hr width="60%" style="color: white; border: 1px solid white" />
+            <hr width="50%" style="color: white; border: 1px solid white" />
+            <hr width="40%" style="color: white; border: 1px solid white" />
+            <hr width="30%" style="color: white; border: 1px solid white" />
+            <hr width="20%" style="color: white; border: 1px solid white" />
+            <hr width="10%" style="color: white; border: 1px solid white" />
+            <hr width="5%" style="color: white; border: 1px solid white" />
+            <!-- On computer screens, sans-serif fonts are considered easier to read than serif fonts. -->
+            <q class="text-muted"
+              >As an unremitting scholar, I am perpetually in search of ways to
+              acquire and implement novel technologies.</q
+            >
+            <hr width="70%" />
+
+            <div
+              class="col p-3 mb-2 bg-primary text-white dub-border outline-secondary box-shadow-grey display-3 text-shadow-dark"
+            >
+              <h1 class="text-shadow-dark-card">
+                Click on a picture below to visit the site shown
+              </h1>
+              <div class="box">
+                <a href="https://www.nhl.com/bruins/" target="_blank">
+                  <img
+                    src="./assets/TheStevens.jpg"
+                    alt="TheStevens"
+                    style="width: 200px; height: 200px"
+                    class="rotateimg90"
+                  />
+                </a>
+
+                <div class="description dub-border">
+                  <h3>The Stevens</h3>
+                </div>
+              </div>
+              <hr width="10%" color="white" ; />
+
+              <div class="box">
+                <a
+                  href="https://intense-castle-15409.herokuapp.com/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/burgerSS.jpg"
+                    alt="TheStevens"
+                    style="width: 200px; height: 200px"
+                  />
+                </a>
+
+                <div class="description dub-border">
+                  <h3>The Burger App</h3>
+                </div>
+              </div>
+
+              <hr width="10%" color="white" ; />
+
+              <div class="box">
+                <a
+                  href="https://jmuncrief.github.io/p1_location_info/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/project1.jpg"
+                    ;
+                    alt="project1"
+                    ;
+                    style="width: 200px; height: 200px"
+                  />
+                </a>
+
+                <div class="description dub-border">
+                  <h3>City Info</h3>
+                </div>
+              </div>
+              <hr width="10%" color="white" ; />
+              <div class="box">
+                <a
+                  href="https://stevensjones.github.io/codeQuizFourthEdition/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/codeQuizSS.jpg"
+                    alt="codeQuiz"
+                    style="width: 200px; height: 200px"
+                  />
+                </a>
+
+                <div class="description dub-border">
+                  <h3>CodeQuiz</h3>
+                </div>
+              </div>
+              <hr width="10%" color="white" ; />
+
+              <!--I need to figure out how to connect my page to the CLI-->
+              <div class="box">
+                <a
+                  href="https://github.com/StevenSJones/readMeGenSeventhEdition"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/readMeGeneratorSS.jpg"
+                    alt="Read Me Generator"
+                    style="width: 200px; height: 200px"
+                  />
+                </a>
+
+                <div class="description dub-border">
+                  <h3>Read Me Generator</h3>
+                </div>
+              </div>
+              <hr width="10%" color="white" ; />
+              <div class="box">
+                <a
+                  href="https://stevensjones.github.io/WorkDayCalenderFifthEdition/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/workDaySchedulerSS.jpg"
+                    alt="Work Day Scheduler"
+                    style="width: 200px; height: 200px"
+                  />
+                </a>
+                <div class="description dub-border">
+                  <h3>The Work Day Scheduler</h3>
+                </div>
+              </div>
+              <hr width="10%" color="white" ; />
+              <div class="box">
+                <a
+                  href="https://glacial-taiga-04215.herokuapp.com/"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/Project2SS.jpg"
+                    alt="The Game Tracker"
+                    style="width: 200px; height: 200px"
+                  />
+                </a>
+
+                <div class="description dub-border">
+                  <h3>The Game Tracker</h3>
+                </div>
+              </div>
+              <hr width="10%" color="white" ; />
+            </div>
+          </div>
+        </div>
+        <h1 class="display-3 text-shadow-dark">
+          <hr width="1%" style="color: black; border: 2px dotted black" />
+          <hr width="2%" style="color: black; border: 4px dotted black" />
+          <hr width="6%" style="color: black; border: 4px dotted black" />
+          <hr width="12%" style="color: grey; border: 4px dotted grey" />
+          <hr
+            width="16%"
+            style="color: darkgrey; border: 4px dotted darkgrey"
+          />
+          <hr
+            width="24%"
+            style="color: lightgrey; border: 4px dotted lightgrey"
+          />
+          <hr
+            width="32%"
+            style="color: whitesmoke; border: 4px dotted whitesmoke"
+          />
+          <hr width="48%" style="color: white; border: 4px dotted white" />
+          <hr width="60%" style="color: white; border: 4px dotted white" />
+          <hr width="48%" style="color: white; border: 4px dotted white" />
+          <hr
+            width="32%"
+            style="color: whitesmoke; border: 4px dotted whitesmoke"
+          />
+          <hr
+            width="24%"
+            style="color: lightgrey; border: 4px dotted lightgrey"
+          />
+          <hr
+            width="16%"
+            style="color: darkgrey; border: 4px dotted darkgrey"
+          />
+          <hr width="12%" style="color: grey; border: 4px dotted grey" />
+          <hr width="6%" style="color: black; border: 4px dotted black" />
+          <hr width="2%" style="color: black; border: 4px dotted black" />
+          <hr width="1%" style="color: black; border: 2px dotted black" />
+        </h1>
+      </div>
+       
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="container d-flex justify-content-center">
+        <!--sticky footer-->
+        <span align="center" ; class="text-muted">&copy; Steven Jones 2020</span
+        ><!--&copy is used to create the copywrite symbol-->
+      </div>
+    </footer>
+  </body>
+</html>
