@@ -5,7 +5,13 @@ import Project from "./components/Project";
 import Footer from "./components/Footer";
 
 function App() {
-    return <Header />;
+    return (
+    <>
+    <Header />
+    <Project />
+    <Footer />
+    </>
+    )
 }
 
 
