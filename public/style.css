@@ -15,6 +15,10 @@ q {
   min-height: 300px;
 }
 
+.one-hundred-wide {
+   max-width: 100%;
+}
+
 .text-shadow-dark {
   text-shadow: 4px 4px #a0929b;
 }

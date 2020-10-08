@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+// import 'bootstrap/dist/css/bootstrap.min.css';I also ran npm install react-bootstrap bootstrap
+ 
+//index.js is the entry file; the main file to be redered; generated. 
 
-//reactDom render method
+//reactDom render method: takes in our component (<App/>) and our container ('root')
 ReactDOM.render(
   <React.StrictMode>
     <App />
