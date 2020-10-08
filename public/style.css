@@ -17,7 +17,10 @@ html {
 
 
 
-
+.container{
+  max-width: 100%;
+  justify-content: center;
+}
 
 /* using these */
 q {
