@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <Header />
-      <Container className="color-welcome container-center">
+      <Container className="color-welcome container-center justify-content-center one-hundred-wide">
         <Row className="row-center">
-          <Col>
+          <Col className="justify-content-center">
             React Portfolio
             <hr />
             <hr />
