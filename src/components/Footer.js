@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Footer() {
-    return <h1>Hello from the Footer comoponent!</h1>
+export default function Footer(props) {
+    return <h2>Hello from the Project component</h2>
 }
