@@ -13,6 +13,7 @@ function App() {
       <Container className="color-welcome container-center">
         <Row className="row-center">
           <Col>
+            React Portfolio
             <hr />
             <hr />
             <hr />
@@ -21,7 +22,7 @@ function App() {
             <hr />
             <hr />
             <hr />
-            Steven Jones
+            by Steven Jones
             <hr />
             <hr />
             <hr />
