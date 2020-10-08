@@ -2,9 +2,6 @@ import React from "react";
 import {
   Nav,
   Navbar,
-  NavLink,
-  NavItem,
-  Dropdown,
   NavDropdown,
 } from "react-bootstrap/";
 
@@ -21,6 +18,7 @@ function Navigation() {
         expand="lg"
         bg="dark"
         variant="dark"
+        text="light"
       >
         <Navbar.Brand href="#home">Welcome</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
