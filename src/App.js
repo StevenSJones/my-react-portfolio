@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Container className="color-welcome container-center justify-content-center one-hundred-wide">
         <Row className="row-center">
-          <Col className="justify-content-center">
+          <Col className="justify-content-center inner-flex">
             React Portfolio
             <hr />
             <hr />
