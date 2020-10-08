@@ -36,11 +36,6 @@ function Navigation() {
               <NavDropdown.Item href="#action/3.3"><h1 className="link-text text-shadow-dark">LinkedIn</h1></NavDropdown.Item>
             </NavDropdown>
             </div>
-            <div className="col justify-content-right">
-            <span className="text-shadow-light-font-light-small">Phone: (303)880-9518 |</span>
-          <br />
-          <span className="text-shadow-light-font-light-small">Email: ssjones.code@gmail.com</span>
-          </div>
           </Nav>
         </Navbar.Collapse>
         </div>

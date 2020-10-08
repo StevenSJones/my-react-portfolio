@@ -31,13 +31,16 @@ hr {
   border: 4px dotted black 
 }
 
-.color-nav {
+body {
   background-color: rgb(14, 9, 54);
+  text-align: center
+}
+
+.color-nav {
   max-width: 100%;
 }
 
 .color-welcome {
-  z-index: 5;
   background-color: rgb(14, 9, 54);
   max-width: 100%;
   font-family: cursive, 'Times New Roman', Times, serif;
@@ -45,10 +48,12 @@ hr {
   color: #ffffff;
 }
 
+/* change name */
 .container-center { 
   max-width: fit-content;
   max-height: fit-content;
   justify-content: center;
+  text-align: center;
   /* height: 1000px;
   position: relative;  */
 }

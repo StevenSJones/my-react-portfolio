@@ -11,8 +11,8 @@ function App() {
     <>
       <Header />
       <Container className="color-welcome container-center justify-content-center one-hundred-wide">
-        <Row className="row-center">
-          <Col className="justify-content-center inner-flex">
+        <Row className="row-center justify-content-center">
+          <Col className="justify-content-center">
             React Portfolio
             <hr />
             <hr />
