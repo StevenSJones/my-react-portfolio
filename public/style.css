@@ -1,11 +1,5 @@
 html {
-  margin: auto;
-  border: 20rem;
-  margin-top: 7rem;
-}
-
-q {
-  font-family: parkavenue, cursive, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .item img {
@@ -16,12 +10,40 @@ q {
 }
 
 .one-hundred-wide {
-   max-width: 100%;
+  max-width: 100%;
+}
+
+q {
+  font-family: parkavenue, cursive, serif;
+}
+
+.color-nav {
+  background-color: rgb(14, 9, 54);
+}
+
+.color-footer {
+  background-color: rgb(14, 9, 54);
+  text-shadow: rgb(126, 126, 126);
+  font-size: 2rem;
+  color: 0px 1px #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-shadow-light-font-light {
+  text-shadow: 1px 1px rgb(126, 126, 126);
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .text-shadow-dark {
-  text-shadow: 4px 4px #a0929b;
+  text-shadow: 1px 1px rgb(6, 0, 58);
+  font-size: 2rem;
 }
+
+
+
+
 
 .text-shadow-dark-card {
   text-shadow: 2px 2px #a0929b;

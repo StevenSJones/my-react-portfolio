@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 export default function Footer(props) {
   return (
     <>
-      <Card sticky="bottom" bg="dark" text="info">
+      <Card className="color-footer text-muted" sticky="bottom">
         <Card.Body>
           <Card.Text>
             <blockquote className="blockquote mb-0">
