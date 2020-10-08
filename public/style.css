@@ -13,13 +13,64 @@ html {
   max-width: 100%;
 }
 
+
+
+
+
+
+
+/* using these */
 q {
   font-family: parkavenue, cursive, serif;
+}
+
+hr {
+  width: 95%; 
+  color: black; 
+  border: 4px dotted black 
 }
 
 .color-nav {
   background-color: rgb(14, 9, 54);
   max-width: 100%;
+}
+
+.color-welcome {
+  z-index: 5;
+  background-color: rgb(14, 9, 54);
+  max-width: 100%;
+  justify-content: center;
+  font-family: cursive, 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+.container-center { 
+  height: 1000px;
+  position: relative; 
+}
+
+.row-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container-center-hor { 
+  height: 100px;
+  position: relative; 
+}
+
+.row-center-hor {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .color-footer {
@@ -48,6 +99,9 @@ q {
   text-shadow: 1px 1px rgb(6, 0, 58);
   font-size: 2rem;
 }
+
+
+/* using above this line */
 
 
 
