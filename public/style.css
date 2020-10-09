@@ -27,8 +27,8 @@ q {
 
 hr {
   width: 95%; 
-  color: black; 
-  border: 4px dotted black 
+  color: rgb(126, 126, 126); 
+  border: 4px dotted rgb(126, 126, 126); 
 }
 
 body {
