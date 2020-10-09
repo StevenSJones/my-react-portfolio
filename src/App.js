@@ -9,6 +9,7 @@ import Skills from "./pages/Skills";
 import Introduction from "./pages/Introduction";
 import { Container, Row, Col } from "react-bootstrap/";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+//react router dom is imported so that <Router> and <Switch> can be used here and in the Header.js because it houses the buttons.
 
 // use <></> as the new way for declaring fragments. The old way: <React.Fragment></React.Fragment>. Can also place between a <div></div> tag but that creates a new element in the DOM. Use <></>
 function App() {
