@@ -20,7 +20,7 @@ function Navigation() {
       >
         <div className="row justify-content-center">
           <div className="col">
-        <Navbar.Brand href="/home"><h3 className="text-center text-shadow-light-font-light">Welcome</h3></Navbar.Brand>
+        <Navbar.Brand href="/"><h3 className="text-center text-shadow-light-font-light">Welcome</h3></Navbar.Brand>
         </div>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

@@ -17,8 +17,8 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/">
-            <Home />
+          <Route path="/gallery">
+            <Gallery />
           </Route>
           <Route path="/introduction">
             <Introduction />
@@ -26,8 +26,8 @@ function App() {
           <Route path="/skills">
             <Skills />
           </Route>
-          <Route path="/gallery">
-            <Gallery />
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
         <Project />
