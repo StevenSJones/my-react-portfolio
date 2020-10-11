@@ -7,7 +7,6 @@ import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
 import Skills from "./pages/Skills";
 import Introduction from "./pages/Introduction";
-import { Container, Row, Col } from "react-bootstrap/";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //react router dom is imported so that <Router> and <Switch> can be used here and in the Header.js because it houses the buttons.
 
