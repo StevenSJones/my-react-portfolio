@@ -7,7 +7,7 @@ function Gallery(props) {
     <Container>
       <Row>
         <Col>
-        <Project title="Burger App" description="burger app description" src="./assets/images/" url="https://intense-castle-15409.herokuapp.com/"/>
+        <Project title="Burger App" description="burger app description" src="./assets/images/burgerSS.jpg" url="https://intense-castle-15409.herokuapp.com/"/>
         </Col>
       </Row>
     </Container>
