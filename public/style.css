@@ -1,5 +1,5 @@
 html {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .item img {
@@ -9,12 +9,11 @@ html {
   min-height: 300px;
 }
 
-.one-hundred-wide {
+.card-ima .one-hundred-wide {
   max-width: 100%;
 }
 
-
-.container{
+.container {
   max-width: 100%;
   justify-content: center;
 }
@@ -26,14 +25,14 @@ q {
 }
 
 hr {
-  width: 95%; 
-  color: rgb(126, 126, 126); 
-  border: 4px dotted rgb(126, 126, 126); 
+  width: 95%;
+  color: rgb(126, 126, 126);
+  border: 4px dotted rgb(126, 126, 126);
 }
 
 body {
   background-color: rgb(14, 9, 54);
-  text-align: center
+  text-align: center;
 }
 
 .color-nav {
@@ -43,13 +42,13 @@ body {
 .color-welcome {
   background-color: rgb(14, 9, 54);
   max-width: 100%;
-  font-family: cursive, 'Times New Roman', Times, serif;
+  font-family: cursive, "Times New Roman", Times, serif;
   font-size: 5rem;
   color: #ffffff;
 }
 
 /* change name */
-.container-center { 
+.container-center {
   max-width: fit-content;
   max-height: fit-content;
   justify-content: center;
@@ -69,9 +68,9 @@ body {
   transform: translate(-50%, -50%); */
 }
 
-.container-center-hor { 
+.container-center-hor {
   height: 100px;
-  position: relative; 
+  position: relative;
 }
 
 .row-center-hor {
@@ -88,21 +87,21 @@ body {
   text-shadow: rgb(126, 126, 126);
   font-size: 2rem;
   color: 0px 1px #ffffff;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .text-shadow-light-font-light {
   text-shadow: 1px 1px rgb(126, 126, 126);
   font-size: 2rem;
   color: #ffffff;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .text-shadow-light-font-light-small {
   text-shadow: 1px 1px rgb(126, 126, 126);
   font-size: 1rem;
   color: #ffffff;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .text-shadow-dark {
@@ -110,12 +109,7 @@ body {
   font-size: 2rem;
 }
 
-
 /* using above this line */
-
-
-
-
 
 .text-shadow-dark-card {
   text-shadow: 2px 2px #a0929b;
