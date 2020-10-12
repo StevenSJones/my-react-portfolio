@@ -3,9 +3,10 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import CardColumns from "react-bootstrap/CardColumns";
 
-function Skills() {
+function Resources() {
   return (
     <>
+    <h1 className="justify-content-center text-shadow-light-font-light">Resources Utilized</h1>
       <CardColumns>
         <Card
           bg="dark"
@@ -134,4 +135,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Resources;

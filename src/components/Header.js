@@ -27,7 +27,7 @@ function Navigation() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/introduction"><h3 className="col text-shadow-light-font-light">Introduction</h3></Nav.Link>
-            <Nav.Link href="/skills"><h3 className="col text-shadow-light-font-light">Skills</h3></Nav.Link>
+            <Nav.Link href="/skills"><h3 className="col text-shadow-light-font-light">Resources</h3></Nav.Link>
 
             <Nav.Link href="/gallery"><h3 className="col text-shadow-light-font-light">Gallery</h3></Nav.Link>
             <div className="col justify-content-center">
