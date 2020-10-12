@@ -16,7 +16,7 @@ function Resources() {
           style={{ width: "18rem" }}
           className="mb-2"
         >
-          <Card.Header>Header</Card.Header>
+          <Card.Header></Card.Header>
           <Card.Body>
             <Card.Title>Stackoverflow </Card.Title>
             <Card.Text>
@@ -34,7 +34,7 @@ function Resources() {
           text="{{ rgb(14, 9, 54) }}"
           style={{ width: "18rem" }}
         >
-          <Card.Header>Header</Card.Header>
+          <Card.Header></Card.Header>
           <Card.Body>
             <Card.Title>w3schools</Card.Title>
             <Card.Text>
@@ -53,7 +53,7 @@ function Resources() {
           text="{{ rgb(14, 9, 54) }}"
           style={{ width: "18rem" }}
         >
-          <Card.Header>Header</Card.Header>
+          <Card.Header></Card.Header>
           <Card.Body>
             <Card.Title>Slack</Card.Title>
             <Card.Text>
@@ -69,7 +69,7 @@ function Resources() {
           style={{ width: "18rem" }}
           className="mb-2"
         >
-          <Card.Header>Header</Card.Header>
+          <Card.Header></Card.Header>
           <Card.Body>
             <Card.Title>Sololearn</Card.Title>
             <Card.Text>
@@ -89,7 +89,7 @@ function Resources() {
           text="{{ rgb(14, 9, 54) }}"
           style={{ width: "18rem" }}
         >
-          <Card.Header>Header</Card.Header>
+          <Card.Header></Card.Header>
           <Card.Body>
             <Card.Title>Youtube</Card.Title>
             <Card.Text>
@@ -108,7 +108,7 @@ function Resources() {
           style={{ width: "18rem" }}
           className="mb-2"
         >
-          <Card.Header>Header</Card.Header>
+          <Card.Header></Card.Header>
           <Card.Body>
             <Card.Title>Documentation</Card.Title>
             <Card.Text>
@@ -128,7 +128,7 @@ function Resources() {
           text="{{ rgb(14, 9, 54) }}"
           style={{ width: "18rem" }}
         >
-          <Card.Header>Header</Card.Header>
+          <Card.Header></Card.Header>
           <Card.Body>
             <Card.Title>Github</Card.Title>
             <Card.Text>
