@@ -20,7 +20,7 @@ function Skills() {
               Whenever I encountered an error the initial site that I would see
               when I went to my favorite browser to perform a search would
               innevitably be a similar issue resolved (must have the green check
-              nark that indicates that the issue is resolved or else they likely
+              mark that indicates that the issue is resolved or else they likely
               have no answers for you, trust me) on Stackoverflow.com.
             </Card.Text>
           </Card.Body>
