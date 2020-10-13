@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import Project from "./components/Project";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";

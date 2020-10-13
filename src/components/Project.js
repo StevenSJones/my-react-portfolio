@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardGroup } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 export default function Project(props) {
   return (
