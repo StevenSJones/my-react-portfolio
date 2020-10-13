@@ -33,6 +33,11 @@ hr {
 body {
   background-color: rgb(14, 9, 54);
   text-align: center;
+  border: 20px ridge rgb(255, 255, 255);
+}
+
+.jumbo-border {
+  border: 10px ridge rgb(255, 255, 255);
 }
 
 .color-nav {

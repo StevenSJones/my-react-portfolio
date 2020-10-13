@@ -62,7 +62,7 @@ function Gallery(props) {
   });
   return (
     <Container>
-    <Jumbotron>
+    <Jumbotron className="jumbo-border">
     <Container>
       <h1>Gallery</h1>
       <hr />

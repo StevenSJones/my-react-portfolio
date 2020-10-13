@@ -9,7 +9,7 @@ function Introduction() {
         <Col className="text-left white-text">
           <h2 className="text-center z-index">My name is Steven Jones</h2>
           <Image
-            className="intro-image dub-border box-shadow-grey z-index"
+            className="intro-image dub-border box-shadow-grey z-index jumbo-border"
             src="../assets/TheStevens.jpg"
             rounded
           />

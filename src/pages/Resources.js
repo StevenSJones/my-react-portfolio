@@ -4,7 +4,7 @@ import { Jumbotron, Container, Row, Col, Image } from "react-bootstrap";
 function Resources() {
   return (
     <Container>
-      <Jumbotron>
+      <Jumbotron className="jumbo-border">
         <Container>
           <h1>Resources Utilized</h1>
           <hr />
