@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 350px) {
+  body {
+    background-color: lightblue;
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

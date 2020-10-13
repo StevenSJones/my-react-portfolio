@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Project(props) {
   return (
     <CardGroup>
-      <Card>
+      <Card style={{width:"350px"}}>
         <Card.Img className="" variant="top" src={props.src} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
