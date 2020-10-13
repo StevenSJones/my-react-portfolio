@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "../components/Project";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Jumbotron } from "react-bootstrap";
 
 //the array is a variable that exists inside of the Gallery function
 function Gallery(props) {
@@ -61,9 +61,19 @@ function Gallery(props) {
     );
   });
   return (
-    //this allows us to render the content onto the page
+    <Container>
+    <Jumbotron>
+    <Container>
+      <h1>Gallery</h1>
+      <hr />
+      <p>
+        This page is fully dedicated to showcasing 6 varying projects that I completed at the University of Arizona web-development program. Please take a moment to read a description of each project. 
+      </p>
+    </Container>
+  </Jumbotron>
     <Container>
       <Row>{content}</Row>
+    </Container>
     </Container>
   );
 }

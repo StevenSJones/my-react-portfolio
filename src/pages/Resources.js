@@ -9,6 +9,7 @@ function Resources() {
       <Jumbotron>
         <Container>
           <h1>Resources Utilized</h1>
+          <hr />
           <p>
             While learning how to code fully remotely I was forced to utilize a
             set of resources, many of which were new to me and some of which I
