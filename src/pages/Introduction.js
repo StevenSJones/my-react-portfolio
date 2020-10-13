@@ -13,7 +13,7 @@ function Introduction() {
           <Image
             className="intro-image dub-border box-shadow-grey z-index"
             src="../assets/TheStevens.jpg"
-            roundedCircle
+            rounded
           />
           <p>
             This site was created to showcase the skills that I have learned and
@@ -29,14 +29,15 @@ function Introduction() {
             I am from Colorado and haven't been in Arizona long by any stretch.
             To be honest, I would never make the lucid decision to relocate my
             wife Moriah, son Steven, and dog Penny anywhere in Arizona. I was
-            never fond of copious amounts of heat on end. Being here, I see that
-            air-conditioning helps a great deal as well as playing ice hockey;
-            which my son and I do. I also enjoy family bike rides when it is the
-            appropriate temperature, practicing and watching MMA, many things
-            art related as well as many deliniations of the technology category
-            including web development. I feel thankful to be at my current
-            station in life and hope I am aware enough to live the journey that
-            I am on and truly enjoy it.
+            never particularyly fond of copious amounts of heat on end. Being in
+            Arizona, I see that air-conditioning helps a great deal as well as
+            playing ice hockey; which my son and I do as frequently as possible.
+            I also enjoy family bike rides when it is the appropriate
+            temperature, practicing and watching MMA, many things art related as
+            well as many deliniations of the technology category including web
+            development. I feel thankful to be at my current station in life and
+            hope I am aware enough to live the journey that I am on and truly
+            enjoy it.
           </p>
         </Col>
       </Row>
