@@ -1,8 +1,8 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
-import Image from 'react-bootstrap/Image'
+import Image from "react-bootstrap/Image";
 
 function Introduction() {
   return (
@@ -19,9 +19,15 @@ function Introduction() {
               style={{ width: "18rem" }}
               className="mb-2"
             >
-              <Card.Header> <Col xs={6} md={4}>
-      <Image src="../../public/assets/images/TheStevens.jpg" roundedCircle />
-    </Col></Card.Header>
+              <Card.Header>
+                {" "}
+                <Col xs={6} md={4}>
+                  <Image className="rotateimg90"
+                    src="../assets/TheStevens.jpg"
+                    rounded
+                  />
+                </Col>
+              </Card.Header>
               <Card.Body>
                 <Card.Title>My name is Steven Jones</Card.Title>
                 <Card.Text>
