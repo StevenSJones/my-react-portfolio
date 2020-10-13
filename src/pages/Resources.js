@@ -1,7 +1,5 @@
 import React from "react";
 import { Jumbotron, Container, Row, Col, Image } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
-import CardColumns from "react-bootstrap/CardColumns";
 
 function Resources() {
   return (

@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
-import CardColumns from "react-bootstrap/CardColumns";
 import Image from "react-bootstrap/Image";
 
 function Introduction() {
@@ -37,7 +35,8 @@ function Introduction() {
             well as many deliniations of the technology category including web
             development. I feel thankful to be at my current station in life and
             hope I am aware enough to live the journey that I am on and truly
-            enjoy it.
+            enjoy it. I intend on continueing my growth as a full-stack
+            web-developer in the foreseeable future.
           </p>
         </Col>
       </Row>
