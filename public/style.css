@@ -57,6 +57,25 @@ body {
   position: relative;  */
 }
 
+.white-text {
+  color: #ffffff;
+}
+
+.white-text h2 {
+  margin-bottom: 60px;
+}
+
+.intro-image {
+  float: right;
+  width: 358px;
+  height: 479px;
+  margin-left: 20px;
+}
+
+.main-content {
+  width: 900px;
+}
+
 .row-center {
   max-width: 100%;
   max-height: 100%;
@@ -109,18 +128,24 @@ body {
   font-size: 2rem;
 }
 
+.box-shadow-grey {
+  background-color: #a0929b;
+  box-shadow: #ffffff 2px 4px 75px 0px;
+  max-width: 100%;
+  padding: 30px 40px;
+}
+.dub-border {
+  border-style: double;
+}
+
+.z-index {
+  z-index: 2;
+}
 /* using above this line */
 
 .text-shadow-dark-card {
   text-shadow: 2px 2px #a0929b;
   padding: 5px;
-}
-
-.box-shadow-grey {
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.15) 2px 4px 12px 0px;
-  max-width: 100%;
-  padding: 30px 40px;
 }
 
 .indexmain,
@@ -139,10 +164,6 @@ body {
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
-}
-
-.dub-border {
-  border-style: double;
 }
 
 .leftWhite {

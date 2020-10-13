@@ -6,64 +6,38 @@ import Image from "react-bootstrap/Image";
 
 function Introduction() {
   return (
-    <Container className="text-shadow-light-font-light">
+    <Container className="main-content">
       <Row>
-        <Col className="col justify-content-center">
-          <h1 border="secondary" style={{ width: "18rem" }}>
-            Hello World!
-          </h1>
-          <CardColumns>
-            <Card
-              bg="dark"
-              text="light"
-              style={{ width: "18rem" }}
-              className="mb-2"
-            >
-              <Card.Header>
-                {" "}
-                <Col xs={6} md={4}>
-                  <Image className="rotateimg90"
-                    src="../assets/TheStevens.jpg"
-                    rounded
-                  />
-                </Col>
-              </Card.Header>
-              <Card.Body>
-                <Card.Title>My name is Steven Jones</Card.Title>
-                <Card.Text>
-                  This site was created to introduce myself and to showcase the
-                  skills that I have learned and what I have used to procure the
-                  knowledge garnered while studying web development at the
-                  University of Arizona. In the top nav bar you will see that I
-                  have a dropdown that contains links to my Github and LinkedIn
-                  profiles as well as a link to my resume and the subsequent
-                  pages of the assignment.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </CardColumns>
-          <CardColumns>
-            <Card
-              bg="dark"
-              text="light"
-              style={{ width: "18rem" }}
-              className="mb-2"
-            >
-              <Card.Header></Card.Header>
-              <Card.Body>
-                <Card.Title></Card.Title>
-                <Card.Text>
-                  I am from Colorado and haven't been in Arizona long at all. My
-                  wife Moriah, son Steven, and dog Penny moved out here a short
-                  time ago. I enjoy playing and watching ice hockey, practicing
-                  and watching MMA, most things art related as well as most
-                  things technology related. I feel thankful to be at my current
-                  station in life and hope I am aware enough to live the journey
-                  that I am on and truly enjoy it.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </CardColumns>
+        <Col className="text-left white-text">
+          <h2 className="text-center z-index">My name is Steven Jones</h2>
+          <Image
+            className="intro-image dub-border box-shadow-grey z-index"
+            src="../assets/TheStevens.jpg"
+            roundedCircle
+          />
+          <p>
+            This site was created to showcase the skills that I have learned and
+            the primary resources that I have used to procure the knowledge
+            garnered while studying web development at the University of
+            Arizona. In the top nav bar you will see that I have links displayed
+            in a linear fashion to the <q>Home</q>, <q>Introduction</q>,{" "}
+            <q>Gallery</q>, and <q>Resources</q> pages as well as a dropdown.
+            The contents of which follow: links to my Github and LinkedIn
+            profiles as well as a link to my resume for your viewing pleasure.
+          </p>
+          <p>
+            I am from Colorado and haven't been in Arizona long by any stretch.
+            To be honest, I would never make the lucid decision to relocate my
+            wife Moriah, son Steven, and dog Penny anywhere in Arizona. I was
+            never fond of copious amounts of heat on end. Being here, I see that
+            air-conditioning helps a great deal as well as playing ice hockey;
+            which my son and I do. I also enjoy family bike rides when it is the
+            appropriate temperature, practicing and watching MMA, many things
+            art related as well as many deliniations of the technology category
+            including web development. I feel thankful to be at my current
+            station in life and hope I am aware enough to live the journey that
+            I am on and truly enjoy it.
+          </p>
         </Col>
       </Row>
     </Container>
