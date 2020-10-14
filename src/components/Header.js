@@ -1,5 +1,6 @@
 import React from "react";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap/";
+import { Nav, Navbar, NavDropdown} from "react-bootstrap/";
+import { ROuter, Switch, Link, Redirect } from "react-router-dom";
 //react router dom is imported so that <Router> and <Switch> can be used here and in the Header.js because it houses the buttons.
 
 export default function Header(props) {
@@ -9,7 +10,13 @@ export default function Header(props) {
 function Navigation() {
   return (
     <>
-      <div className="container">
+<nav className="color-nav" sticky="top" collapseOnSelect expand="lg">
+<Link to="/" >Home</Link>
+<Link to="/introduction">Introduction</Link>
+<Link to="/resources">Resources</Link>
+<Link to="/gallery">Gallery</Link>
+</nav>
+      {/* <div className="container">
         <Navbar className="color-nav" sticky="top" collapseOnSelect expand="lg">
           <div className="row">
             <div className="col">
@@ -70,7 +77,7 @@ function Navigation() {
             </Navbar.Collapse>
           </div>
         </Navbar>
-      </div>
+      </div> */}
     </>
   );
 }

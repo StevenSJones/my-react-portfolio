@@ -17,7 +17,7 @@ function Gallery(props) {
       url: "https://jmuncrief.github.io/p1_location_info/",
       title: "City Info",
       description:
-        "√ - City Info allows the user to look up city information using API calls. Perhaps you are visiting a new city and would like to know a few of the activities in the area that during your stay. This app is for you then. Click the Project 1 button to proceed to the site.",
+        "√ - The City Info application allows the user to look up city information using API calls. Perhaps you are visiting a new city and would like to know a few of the activities in the area during your stay. This app is for you then! Click the Project 1 button to proceed to the site.",
     },
     {
       src: "./assets/codeQuizSS.jpg",
