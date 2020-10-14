@@ -22,10 +22,19 @@ function App() {
           <Route path="/introduction">
             <Introduction />
           </Route>
-          <Route path="/skills">
+          <Route path="/resources">
             <Resources />
           </Route>
           <Route path="/">
+            <Home />
+          </Route>
+          <Route path="./resume.html">
+            <Home />
+          </Route>
+          <Route path="/https://github.com/StevenSJones">
+            <Home />
+          </Route>
+          <Route path="/https://www.linkedin.com/in/steven-j-285a33115">
             <Home />
           </Route>
         </Switch>

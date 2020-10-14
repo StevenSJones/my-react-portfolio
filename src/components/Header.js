@@ -9,11 +9,15 @@ export default function Header(props) {
 function Navigation() {
   return (
     <>
-<nav className="color-nav" sticky="top" collapseOnSelect expand="lg">
+<nav className="color-nav" sticky="top">
 <Link to="/">| Home |</Link>
 <Link to="/introduction">Introduction |</Link>
 <Link to="/resources">Resources |</Link>
 <Link to="/gallery">Gallery |</Link>
+<Link to="./resume.html"> Resume |</Link>
+<Link to="/https://github.com/StevenSJones"> Github |</Link>
+<Link to="/https://www.linkedin.com/in/steven-j-285a33115"> LinkedIn |</Link>
+
 </nav>
       {/* <div className="container">
         <Navbar className="color-nav" sticky="top" collapseOnSelect expand="lg">
