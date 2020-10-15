@@ -48,9 +48,9 @@ function Gallery(props) {
         "√ - The Work Day Scheduler allows you to write out your plans for the work day; 9-5. You can create a todo and then get rid of it when it is comleted. It also has a jumbotron that lights up yellow if you visit the site in the morning hours and blue in the evening.",
     },
   ];
-  const content = projects.map((project) => {
+  const content = projects.map((project, index) => {
     return (
-      <Col>
+      <Col key={index}>
         <Project
           title={project.title}
           url={project.url}

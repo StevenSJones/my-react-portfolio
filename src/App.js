@@ -28,15 +28,6 @@ function App() {
           <Route path="/">
             <Home />
           </Route>
-          <Route path="./resume.html">
-            <Home />
-          </Route>
-          <Route path="/https://github.com/StevenSJones">
-            <Home />
-          </Route>
-          <Route path="/https://www.linkedin.com/in/steven-j-285a33115">
-            <Home />
-          </Route>
         </Switch>
         <Footer />
       </Router>

@@ -15,8 +15,8 @@ function Navigation() {
 <Link to="/resources">Resources |</Link>
 <Link to="/gallery">Gallery |</Link>
 <Link to="./resume.html"> Resume |</Link>
-<Link to="/https://github.com/StevenSJones"> Github |</Link>
-<Link to="/https://www.linkedin.com/in/steven-j-285a33115"> LinkedIn |</Link>
+<Link to="https://github.com/StevenSJones"> Github |</Link>
+<Link to="https://www.linkedin.com/in/steven-j-285a33115"> LinkedIn |</Link>
 
 </nav>
       {/* <div className="container">
