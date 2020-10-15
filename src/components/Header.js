@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Nav } from "react-bootstrap";
 //react router dom is imported so that <Router> and <Switch> can be used here and in the Header.js because it houses the buttons.
 
 export default function Header(props) {
@@ -9,16 +10,32 @@ export default function Header(props) {
 function Navigation() {
   return (
     <>
-<nav className="color-nav" sticky="top">
-<Link to="/">| Home |</Link>
-<Link to="/introduction">Introduction |</Link>
-<Link to="/resources">Resources |</Link>
-<Link to="/gallery">Gallery |</Link>
-<Link to="./resume.html"> Resume |</Link>
-<Link to="https://github.com/StevenSJones"> Github |</Link>
-<Link to="https://www.linkedin.com/in/steven-j-285a33115"> LinkedIn |</Link>
-
-</nav>
+      <Nav className="color-nav" sticky="top">
+        <Nav.Item>
+          <Link to="/">| Home |</Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Link to="/introduction">Introduction |</Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Link to="/resources">Resources |</Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Link to="/gallery">Gallery |</Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Link to="./resume.html"> Resume |</Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="https://github.com/StevenSJones" target="_blank"> Github |</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="https://www.linkedin.com/in/steven-j-285a33115" target="_blank">
+            {" "}
+            LinkedIn |
+          </Nav.Link>
+        </Nav.Item>
+      </Nav>
       {/* <div className="container">
         <Navbar className="color-nav" sticky="top" collapseOnSelect expand="lg">
           <div className="row">
