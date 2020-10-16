@@ -6,7 +6,7 @@ function Resources() {
     <Container>
       <Jumbotron className="jumbo-border">
         <Container>
-          <h1>Resources Utilized</h1>
+          <h1 className="color-welcome">Resources Utilized</h1>
           <hr />
           <p>
             While learning how to code fully remotely I was forced to utilize a

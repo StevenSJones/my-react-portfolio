@@ -64,7 +64,7 @@ function Gallery(props) {
     <Container>
     <Jumbotron className="jumbo-border">
     <Container>
-      <h1>Gallery</h1>
+      <h1 className="color-welcome">Gallery</h1>
       <hr />
       <p>
         This page is fully dedicated to showcasing 6 varying projects that I completed at the University of Arizona web-development program. Please take a moment to read a description of each project. 
