@@ -1,6 +1,18 @@
 html {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+body {
+  background-color: rgb(14, 9, 54);
+  text-align: center;
+  border: 20px ridge rgb(255, 255, 255);
+}
+.blended-button {
+  background-color: rgb(14, 9, 54) !important;
+  border-style: none !important;
+}
+.blended-button:hover{
+  background-color: #ffffff !important;
+}
 
 .item img {
   position: absolute;
@@ -30,12 +42,6 @@ hr {
   border: 4px dotted rgb(126, 126, 126);
 }
 
-body {
-  background-color: rgb(14, 9, 54);
-  text-align: center;
-  border: 20px ridge rgb(255, 255, 255);
-}
-
 .jumbo-border {
   border: 10px ridge rgb(255, 255, 255);
 }
@@ -62,6 +68,10 @@ body {
   position: relative;  */
 }
 
+.text-right {
+  text-align: right;
+}
+
 .white-text {
   color: #ffffff;
 }
@@ -69,7 +79,6 @@ body {
 .white-text h2 {
   margin-bottom: 60px;
 }
-
 
 .intro-image {
   float: right;
