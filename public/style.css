@@ -158,33 +158,10 @@ hr {
 .z-index {
   z-index: 2;
 }
+.logo {
+  background-image: url("../src/images/gold.jpg");
+  width: "250px";
+  height: "250px";
+}
 /* using above this line */
-
-.text-shadow-dark-card {
-  text-shadow: 2px 2px #a0929b;
-  padding: 5px;
-}
-
-.indexmain,
-.contactmain,
-.gallerymain {
-  /*main content for index and contact*/
-  flex: 1 0 auto; /*part of flexbox-0sticky footer/* Prevent Chrome, Opera, and Safari from
-      letting these items shrink to smaller than their content's
-      default minimum size. */
-  margin: 10 5 10rem 0;
-}
-
-.rotateimg90 {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-.leftWhite {
-  float: left;
-  color: white;
-}
 

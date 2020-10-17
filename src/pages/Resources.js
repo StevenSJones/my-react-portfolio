@@ -3,7 +3,7 @@ import { Jumbotron, Container, Row, Col, Image } from "react-bootstrap";
 
 function Resources() {
   return (
-    <Container>
+    <Container className="logo">
       <Jumbotron className="jumbo-border">
         <Container>
           <h1 className="color-welcome">Resources Utilized</h1>
@@ -23,9 +23,9 @@ function Resources() {
           <Col>
             <p className="text-right white-text">
               W3schools is a website that I found w3schools to be invaluable in
-              my daily problem solving and concept recpaps, both of which I
-              performed daily during the program. The site is very well
-              organized and easy to follow which makes it ideal for beginners
+              my daily problem solving and concept recaps, both of which I
+              perform daily. The site is very well
+              organized and easy to follow which makes it ideal for both beginners
               and those well versed looking for a quick refresh.
             </p>
           </Col>
