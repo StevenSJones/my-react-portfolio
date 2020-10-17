@@ -9,10 +9,11 @@ function Introduction() {
         <Col className="text-left white-text">
           <h2 className="text-center z-index color-welcome">My name is Steven Jones</h2>
           <Image
-            className="intro-image dub-border box-shadow-grey z-index jumbo-border"
+            className="intro-image dub-border box-shadow-grey z-index"
             src="../assets/TheStevens.jpg"
             rounded
           />
+          <Container className="jumbo-border">
           <p>
             This site was created to showcase the skills that I have learned and
             the primary resources that I have used to procure the knowledge
@@ -38,6 +39,7 @@ function Introduction() {
             enjoy it. I intend on continueing my growth as a full-stack
             web-developer in the foreseeable future.
           </p>
+          </Container>
         </Col>
       </Row>
     </Container>

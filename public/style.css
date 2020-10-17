@@ -188,22 +188,3 @@ hr {
   color: white;
 }
 
-#textright {
-  text-align: right;
-}
-
-#textcenter {
-  text-align: center;
-}
-
-/* NOT USED */
-#full-flex {
-  /*flex box that works with sticky footer*/
-  margin: 0;
-  font: 16px Arial; /* per specs*/
-  display: flex; /*part of flexbox-0sticky footer*/
-  flex-direction: column; /*part of flexbox-0sticky footer*/
-  height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
-  width: 960px;
-  margin: auto;
-}
