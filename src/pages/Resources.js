@@ -17,7 +17,7 @@ function Resources() {
         </Container>
       </Jumbotron>
 
-      <Container>
+      <Container className="jumbo-border">
         <h2 className="text-center white-text">w3schools</h2>
         <Row>
           <Col>
