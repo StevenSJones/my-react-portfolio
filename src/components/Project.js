@@ -3,7 +3,7 @@ import { Card, CardGroup, Container } from "react-bootstrap";
 
 export default function Project(props) {
   return (
-    <Container>
+    <Container className="jumbo-border">
     <CardGroup>
       <Card style={{width:"350px"}}>
         <Card.Img className="" variant="top" src={props.src} />
