@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../components/Project";
 import { Container, Row, Col, Jumbotron } from "react-bootstrap";
 
-//the array is a variable that exists inside of the Gallery function
+//the array of objects is a variable that exists inside of the Gallery function
 function Gallery(props) {
   const projects = [
     {
@@ -47,7 +47,7 @@ function Gallery(props) {
       description:
         "√ - The Work Day Scheduler allows you to write out your plans for the work day; 9-5. You can create a todo and then get rid of it when it is comleted. It also has a jumbotron that lights up yellow if you visit the site in the morning hours and blue in the evening.",
     },
-  ];
+  ]; //here we map over the items in the projects array and return one card for each iteration
   const content = projects.map((project, index) => {
     return (
       <Col key={index}>
@@ -62,18 +62,21 @@ function Gallery(props) {
   });
   return (
     <Container>
-    <Jumbotron className="jumbo-border">
-    <Container>
-      <h1 className="color-welcome">Gallery</h1>
-      <hr />
-      <p>
-        This page is fully dedicated to showcasing 6 varying projects that I completed at the University of Arizona web-development program. Please take a moment to read a description of each project. 
-      </p>
-    </Container>
-  </Jumbotron>
-    <Container>
-      <Row>{content}</Row>
-    </Container>
+      <Jumbotron className="jumbo-border">
+        <Container>
+          <h1 className="color-welcome">Gallery</h1>
+          <hr />
+          <p>
+            This page is dedicated to showcasing 6 varying projects that I
+            completed at the University of Arizona web-development program.
+            Please take a moment to read a description of each project visit
+            each site in turn by pressing the go to site button.
+          </p>
+        </Container>
+      </Jumbotron>
+      <Container>
+        <Row>{content}</Row>
+      </Container>
     </Container>
   );
 }

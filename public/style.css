@@ -10,7 +10,7 @@ body {
   background-color: rgb(14, 9, 54) !important;
   border-style: none !important;
 }
-.blended-button:hover{
+.blended-button:hover {
   background-color: #ffffff !important;
 }
 
@@ -158,10 +158,9 @@ hr {
 .z-index {
   z-index: 2;
 }
+/* using above this line */
 .logo {
   background-image: url("../src/images/gold.jpg");
   width: "250px";
   height: "250px";
 }
-/* using above this line */
-

@@ -1,8 +1,6 @@
 import React from "react";
 import { Nav, Container, Row, Col, Button } from "react-bootstrap";
 
-//react router dom is imported so that <Router> and <Switch> can be used here and in the Header.js because it houses the buttons.
-
 export default function Header(props) {
   return <Navigation />;
 }
